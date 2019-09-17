@@ -1,0 +1,27 @@
+button {
+  background-color: #555555; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+  color: #555555;
+}
+.buttons
+{
+	margin: auto;
+	width: fix-content;
+	width: -moz-fit-content;
+	width: -webkit-fit-content;
+}
+
+body
+{
+	background-color: black;
+}

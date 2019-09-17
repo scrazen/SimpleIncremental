@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+	<link rel="stylesheet" type="text/css" href="interface.css" />
+	<meta charset="UTF-8">
+    <title>Simple Incremental</title>
+  </head>
+  <body>
+	<h1><span class="total" id="total">0</span></h1>
+	<div class="buttons">
+		<button type="button" onClick="buttonClick(1)">Click Me!</button> 
+	</div>
+	<br />
+	<div class="buttons">
+		<button type="button" onClick="buyClicker()">Clickers: <span id="clickers">0</span><br />Cost: <span id="clickerCost">10</span></button> 
+	</div>
+	<br />
+	<div class="buttons">
+		<button type="button" onClick="save()">Save</button> 
+		<button type="button" onClick="load()">Load</button> 
+		<button type="button" onClick="deleteSave()">Delete</button> 
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
